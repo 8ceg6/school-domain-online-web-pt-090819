@@ -1,11 +1,12 @@
 # code here!
+require 'pry'
 class School
-attr_accessor :name, :roster
+attr_accessor :roster
 
-def initialize(name)
-@name = name
-@roster = {}
-end 
-
+  def initialize(name)
+    @name = name
+    @roster = {}
+  end 
+  
 
 end
