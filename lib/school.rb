@@ -19,7 +19,7 @@ attr_accessor :roster
   def sort 
     roster.each |grade, student|
     roster[grade]= student.sort
-  
+  end
   end
   
 end
