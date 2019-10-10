@@ -16,7 +16,10 @@ attr_accessor :roster
   roster[grade]
   end
   
+  def sort 
   
+  
+  end
   
 end
 
