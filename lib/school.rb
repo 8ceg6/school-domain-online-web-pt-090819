@@ -8,8 +8,11 @@ attr_accessor :roster
     @roster = {}
   end 
   def add_student(student_name, grade)
-  binding.pry
-  
+  if !roster[grade]
+    roster [grade] = []
   end
+  roster[grade] << student_name
+  
+
 
 end
