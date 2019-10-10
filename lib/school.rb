@@ -13,6 +13,6 @@ attr_accessor :roster
   end
   roster[grade] << student_name
   
-
+end
 
 end
