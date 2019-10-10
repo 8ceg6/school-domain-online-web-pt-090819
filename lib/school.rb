@@ -1,7 +1,7 @@
 # code here!
 class School
-initialize(school)
-@school =school
+initialize(schools)
+@schools =schools
 
 
 end
