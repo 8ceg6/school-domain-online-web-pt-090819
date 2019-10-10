@@ -1,6 +1,6 @@
 # code here!
 class School
-initialize
+initialize(school)
 
 
 end
