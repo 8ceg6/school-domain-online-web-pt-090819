@@ -16,7 +16,7 @@ attr_accessor :roster
   roster[grade]
   end
   
-  def sort 
+  def sort |grade, student|
     roster[grade]= student.sort
   
   end
